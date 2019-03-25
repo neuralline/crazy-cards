@@ -1,0 +1,26 @@
+{
+  "name": "crazy-cards",
+  "version": "0.1.0",
+  "description": "Crazy Cards Application",
+  "main": "index.html",
+  "repository": "https://github.com/neuralline/crazy-cards",
+  "homepage": "https://crazy-cards.netlify.com/",
+  "author": "Darik Hart",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": " jest"
+  },
+  "keywords": [
+    "javascript games",
+    "poker",
+    "card game",
+    "object oriented javascript"
+  ],
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "parcel": "^1.12.3",
+    "sass": "^1.17.3"
+  }
+}
